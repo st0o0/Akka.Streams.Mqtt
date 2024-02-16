@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Streams.Mqtt", "Akka.Streams.Mqtt\Akka.Streams.Mqtt.csproj", "{50586643-70F5-4C27-9B9F-158B600D1479}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Streams.Mqtt.Tests", "Akka.Streams.Mqtt.Tests\Akka.Streams.Mqtt.Tests.csproj", "{3A762DE8-9105-49E0-9A74-EBA2DFF13485}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50586643-70F5-4C27-9B9F-158B600D1479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50586643-70F5-4C27-9B9F-158B600D1479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50586643-70F5-4C27-9B9F-158B600D1479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50586643-70F5-4C27-9B9F-158B600D1479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A762DE8-9105-49E0-9A74-EBA2DFF13485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A762DE8-9105-49E0-9A74-EBA2DFF13485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A762DE8-9105-49E0-9A74-EBA2DFF13485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A762DE8-9105-49E0-9A74-EBA2DFF13485}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
