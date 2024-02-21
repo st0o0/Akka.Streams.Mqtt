@@ -1,4 +1,4 @@
-﻿using Akka.Streams.Dsl;
+using Akka.Streams.Dsl;
 using MQTTnet.Extensions.ManagedClient;
 using MQTTnet.Packets;
 

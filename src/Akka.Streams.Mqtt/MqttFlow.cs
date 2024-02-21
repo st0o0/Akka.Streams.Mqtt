@@ -1,4 +1,5 @@
 ﻿using Akka.Streams.Dsl;
+using Akka.Streams.Mqtt.Stages;
 using MQTTnet.Extensions.ManagedClient;
 
 namespace Akka.Streams.Mqtt;

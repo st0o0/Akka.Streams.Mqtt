@@ -1,10 +1,10 @@
-﻿using Akka.Streams.Stage;
+using Akka.Streams.Stage;
 using Akka.Streams.Supervision;
 using MQTTnet;
 using MQTTnet.Client;
 using MQTTnet.Extensions.ManagedClient;
 
-namespace Akka.Streams.Mqtt;
+namespace Akka.Streams.Mqtt.Stages;
 
 public partial class ManagedMqttFlowStage : GraphStage<FlowShape<IOperation, IMessage>>
 {
